@@ -1,0 +1,16 @@
+{
+    "dataFolder": "./data",
+    "unsafeCmdsOnlyCLI": true,
+    "steam": {
+        "username": "",
+        "password": "",
+        "nickname": "*BOT*",
+        "admins": [ "" ],
+        "autoconnect": true
+    },
+    "server": {
+        "address": "",
+        "port": 29070,
+        "interval": 15000
+    }
+}

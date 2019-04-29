@@ -1,0 +1,27 @@
+{
+  "name": "jkasteambot",
+  "version": "0.0.1",
+  "description": "Steam bot to check the status of JKA servers",
+  "main": "jkasteambot.js",
+  "scripts": {
+    "start": "nodejs jkasteambot.js run"
+  },
+  "keywords": [
+    "jedi",
+    "knight",
+    "academy",
+    "server",
+    "steam",
+    "bot"
+  ],
+  "author": "Avygeil",
+  "license": "MIT",
+  "dependencies": {
+    "jkutils": "git+https://github.com/Avygeil/node-jkutils.git",
+    "steam-user": "3.27.1",
+    "steamcommunity": "3.36.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
