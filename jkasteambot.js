@@ -584,14 +584,6 @@ let handlers = {
 
                 // execute the command and send the result back as a chat message
                 handleCommandString( message, senderID, ( msg ) => {
-                    // if this message spans on multiple lines, break on the first line
-                    // because it looks better in Steam messages
-                    // unfortunately, Steam seems to have updated and it now trims line
-                    // breaks in the beginning, so add a dot before it I guess...
-                    if ( msg.indexOf( '\n' ) > -1 ) {
-                        msg = '.\n' + msg;
-                    }
-
                     client.chatMessage( senderID, msg );
                 } );
             }
