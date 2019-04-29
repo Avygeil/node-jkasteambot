@@ -62,5 +62,4 @@ typings/
 
 # project
 config.json
-data/levelshots/*.jpg
-data/levelshots/mp/*.jpg
+data/*
